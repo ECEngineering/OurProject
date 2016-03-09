@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1457483121 source:c:\users\korisnik\desktop\documents\progr\epics generator\main.cpp
+	<iostream>
+	<stdlib.h>
+	<string>
+	<fstream>
+
+1457481814 source:c:\users\korisnik\desktop\documents\progr\epics generator\src\character.cpp
+	"Character.h"
+
+1457481814 c:\users\korisnik\desktop\documents\progr\epics generator\include\character.h
+	<iostream>
+
