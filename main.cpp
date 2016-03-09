@@ -62,7 +62,7 @@ void removeUnderscores(string& s)
 
 void loadGenericNames(genericName destination[100],int* totalNo)
 {
-    ifstream inputText("names//preDefinedNames.txt");
+    ifstream inputText("names//preDefinedNames.epic");
 
     int i = 0;
     while(!inputText.eof())
@@ -76,7 +76,7 @@ void loadGenericNames(genericName destination[100],int* totalNo)
 
 void loadBaseNames(baseNames destination[5],int* totalNo)
 {
-    ifstream inputTheme("names//nameThemeList.txt");
+    ifstream inputTheme("names//nameThemeList.epic");
     int i = 0;
 
     while(!inputTheme.eof())
@@ -91,7 +91,7 @@ void loadBaseNames(baseNames destination[5],int* totalNo)
     for(i=0;i<*totalNo;i++)
     {
         string tmp;
-        inputElse.open("names//" + destination[i].theme + "//names.txt");
+        inputElse.open("names//" + destination[i].theme + "//names.epic");
         while(!inputElse.eof())
         {
             inputElse >> tmp;
@@ -99,7 +99,7 @@ void loadBaseNames(baseNames destination[5],int* totalNo)
         }
         inputElse.close();
 
-        inputElse.open("names//" + destination[i].theme + "//surnames.txt");
+        inputElse.open("names//" + destination[i].theme + "//surnames.epic");
         while(!inputElse.eof())
         {
             inputElse >> tmp;
@@ -107,7 +107,7 @@ void loadBaseNames(baseNames destination[5],int* totalNo)
         }
         inputElse.close();
 
-        inputElse.open("names//" + destination[i].theme + "//titles.txt");
+        inputElse.open("names//" + destination[i].theme + "//titles.epic");
         while(!inputElse.eof())
         {
             inputElse >> tmp;

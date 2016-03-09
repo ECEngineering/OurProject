@@ -11,3 +11,17 @@
 1457481814 c:\users\korisnik\desktop\documents\progr\epics generator\include\character.h
 	<iostream>
 
+1457532041 source:c:\users\si\desktop\github\ourproject\main.cpp
+	<iostream>
+	<stdlib.h>
+	<string>
+	<fstream>
+	<time.h>
+	<vector>
+
+1457532041 source:c:\users\si\desktop\github\ourproject\src\character.cpp
+	"Character.h"
+
+1457532041 c:\users\si\desktop\github\ourproject\include\character.h
+	<iostream>
+
