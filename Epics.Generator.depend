@@ -25,3 +25,26 @@
 1457532041 c:\users\si\desktop\github\ourproject\include\character.h
 	<iostream>
 
+1457481814 source:c:\users\korisnik\desktop\documents\epgenerator\ourproject\src\character.cpp
+	"Character.h"
+
+1457481814 c:\users\korisnik\desktop\documents\epgenerator\ourproject\include\character.h
+	<iostream>
+
+1457543842 source:c:\users\korisnik\desktop\documents\epgenerator\ourproject\main.cpp
+	<iostream>
+	<stdlib.h>
+	<string>
+	<fstream>
+	<time.h>
+	<vector>
+	"NameDatabase.h"
+
+1457543842 c:\users\korisnik\desktop\documents\epgenerator\ourproject\include\namedatabase.h
+	<iostream>
+	<vector>
+	<fstream>
+
+1457543842 source:c:\users\korisnik\desktop\documents\epgenerator\ourproject\src\namedatabase.cpp
+	"NameDatabase.h"
+
